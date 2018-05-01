@@ -1,3 +1,21 @@
 .vyr{
-align-content: left;
+    margin: 0 0 0 auto;
+
+}
+
+.radius{
+    border: 2px solid #434343;
+    padding: 40px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: justify;
+}
+
+.set-font-size {
+    font-size: 8px;
+}
+@media (min-width: 768px) {
+    .set-font-size {
+        font-size: 18px;
+    }
 }
