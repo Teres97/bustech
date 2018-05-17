@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<form action="{{ path('word') }}" method="POST">
+    <p>
+        <label> <b> Ваша имя: </b> <br /> </label>
+        <input name="username" id="username" />
+    </p>
+
+    <p>
+        <label> <b> Ваш адрес: </b> <br /> </label>
+        <input name="adress" id="adress"/>
+    </p>
+
+    <p>
+        <label> <b> Ваше обращение: </b> <br /> </label>
+        <input name="text" id="text"/>
+    </p>
+    <input type="submit" value="Создать документ!" />
+</form>
+</html>

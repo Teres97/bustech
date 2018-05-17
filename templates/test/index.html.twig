@@ -1,0 +1,36 @@
+{% extends 'simple.html.twig' %}
+
+{% block content %}
+    <div class="form-group">
+        <label for="sel1">Какой документ вы хотите составить:</label>
+        <select class="form-control" id="sel1">
+            <option>Жалоба</option>
+            <option>Обращение</option>
+            <option>Письмо</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="sel1">Куда отправить сообщение</label>
+        <select class="form-control" id="sel1">
+            <option>Губернатору области</option>
+            <option>В Администрацию</option>
+            <option>Что то еще</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="usr">ФИО:</label>
+        <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+    <label for="pwd">Телефон:</label>
+    <input type="number" class="form-control" id="phone">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Адрес:</label>
+        <input type="text" class="form-control" id="adress">
+    </div>
+    <div class="form-group">
+        <label for="comment">Описание вашей проблемы:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+{% endblock %}
